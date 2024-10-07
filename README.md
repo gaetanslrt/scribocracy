@@ -1,0 +1,2 @@
+# scribocracy
+Scribocracy website
