@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+h3 {font-size: 50px !important}
 
 body, html {
   height: 100%;
@@ -19,15 +20,30 @@ body, html {
 
 /* Full height image header */
 .bgimg-1 {
-  background-position: right;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url("assets/images/mockup/Screenshot_1728370158-left.png");
-  min-height: 100%;
+  background-color: "white";
+  min-height: 65%;
 }
 
 .w3-bar .w3-button {
   padding: 16px;
+}
+
+.img2 {
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title-text {
+	padding-top: calc(10vh + 5%);
+}
+
+.title-text-mobile {
+	padding-top: calc(5vh + 5%);
 }
 
 @font-face {
@@ -36,6 +52,7 @@ body, html {
 }
 
 
+</div>
 </style>
 </head>
 <body>
@@ -58,7 +75,7 @@ body, html {
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
-    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()" style="font-size: x-large;">
       <i class="fa fa-bars"></i>
     </a>
   </div>
@@ -75,12 +92,26 @@ body, html {
 <!-- Header with full-height image -->
 <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home" style="
     margin-top: 10vh;">
-  <div class="w3-display-left w3-text-white" style="padding:48px">
-    <span class="w3-jumbo w3-hide-small" style="font-family: 'Roxborough';">Fast. Light. Simple.</span><br>
-    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Fast. Light. Simple.</span><br>
-    <span class="w3-large">Scribocracy, the portable minimalist notes app.</span>
+	<!-- Desktop version -->
+  <div class="w3-text-white clearfix w3-hide-small w3-hide-medium" style="padding:48px">
+	  <img class="w3-jumbo img2" src="assets/images/mockup/Screenshot_1728370158-left.png" width="60%">
+	  <div class="title-text w3-hide-small">
+    <span class="w3-jumbo" style="font-family: 'Roxborough';">Fast. Light. Simple.</span><br>
+    <span class="w3-large">Discover Scribocracy, the world's simplest note-taking application.</span>
     <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off"><i class="fab fa-google-play"></i>&nbsp;&nbsp;Download Scribocracy</a></p>
+	  </div>
   </div> 
+
+  <!-- Mobile version -->
+  <div class="w3-text-white clearfix w3-hide-large" style="padding:48px">
+	  <img class="w3-jumbo img2 w3-hide-small" src="assets/images/mockup/Screenshot_1728370158-left.png" width="60%">
+	  <div class="title-text-mobile">
+    <span class="w3-jumbo" style="font-family: 'Roxborough';">Fast. Light. Simple.</span><br>
+    <span class="w3-large">Discover Scribocracy, the world's simplest note-taking application.</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off"><i class="fab fa-google-play"></i>&nbsp;&nbsp;Download Scribocracy</a></p>
+	  </div>
+  </div>
+
   <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
@@ -122,7 +153,7 @@ body, html {
   <div class="w3-row-padding">
     <div class="w3-col m6">
       <h3 style="font-family: 'Roxborough';">Simplicity makes it perfect.</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.</p>
+      <p>Scribocracy offers only the classic functions of a note-taking application: create a new note, save it and edit it. Thanks to these simple options, loading times are record-breaking. The minimalist style of the application makes it easy to use and accessible to everyone.</p>
       <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
     </div>
     <div class="w3-col m6">
@@ -140,7 +171,7 @@ body, html {
       <div class="w3-card">
         <img src="assets/images/gaetans.png" alt="Gaetan SUILLEROT" style="width:100%">
         <div class="w3-container">
-          <h3>Gaetan SUILLEROT</h3>
+          <h3 style="font-size:24px !important;">Gaetan SUILLEROT</h3>
           <p class="w3-opacity">Student at EPITA<br>Founder & CEO Scribocracy</p>
           <p>Passionate about new technologies, team worker, ready to contribute to innovative projects.</p>
           <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
@@ -187,19 +218,19 @@ body, html {
     <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Paris, FR</p>
     <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> gaetan.slt@gmail.com</p>
     <br>
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
-      <p>
-        <button class="w3-button w3-black" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </p>
-    </form>
+    <form action="php/send-mail-action.php" method="post">
+  <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+  <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+  <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+  <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+  <p>
+    <button class="w3-button w3-black" type="submit">
+      <i class="far fa-paper-plane"></i>&nbsp;&nbsp;Send message
+    </button>
+  </p>
+</form>
     <!-- Image of location/map -->
-    <img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
+    <img src="assets/images/end-page-paris.png" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
   </div>
 </div>
 
@@ -234,6 +265,8 @@ function w3_open() {
     mySidebar.style.display = 'none';
   } else {
     mySidebar.style.display = 'block';
+    mySidebar.style.width = '100%';
+    mySidebar.style.height = '100%';
   }
 }
 
