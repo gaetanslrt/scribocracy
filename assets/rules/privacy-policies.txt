@@ -1,0 +1,71 @@
+========== [EN] ==========
+
+Scribocracy Privacy Policy
+
+This privacy policy applies to the Scribocracy mobile application, developed by Gaetan SUILLEROT.
+
+## Data collection and use
+
+Scribocracy is a simple offline note-taking application. We do not collect any personal data from users. All notes created are stored locally on the user's device and are not transmitted to our servers.
+
+## Legal basis
+
+As no personal data is collected, no legal basis is required for data processing.
+
+## Data sharing
+
+We do not share any data with third parties, as we do not collect any.
+
+## User rights
+
+As we do not collect or process any personal data, there are no specific rights to exercise in relation to your personal data when using Scribocracy.
+
+## Security
+
+All notes are stored locally on your device. We recommend that you use your device's security features (such as PIN or fingerprint lock) to protect your notes.
+
+## Changes to the policy
+
+We reserve the right to change this privacy policy at any time. Any changes will be published in the app and on the Play Store.
+
+## Contact
+
+If you have any questions about this privacy policy, you can contact Gaetan SUILLEROT at the following address: gaetan.slt@gmail.com.
+
+Effective date: 10 October 2024
+
+========== [FR] ==========
+
+Politique de confidentialité de Scribocracy
+
+Cette politique de confidentialité s'applique à l'application mobile Scribocracy, développée par Gaetan SUILLEROT.
+
+## Collecte et utilisation des données
+
+Scribocracy est une application de prise de notes simple fonctionnant hors ligne. Nous ne collectons aucune donnée personnelle des utilisateurs. Toutes les notes créées sont stockées localement sur l'appareil de l'utilisateur et ne sont pas transmises à nos serveurs.
+
+## Base juridique
+
+Aucune donnée personnelle n'étant collectée, aucune base juridique n'est nécessaire pour le traitement des données.
+
+## Partage des données
+
+Nous ne partageons aucune donnée avec des tiers, car nous n'en collectons pas.
+
+## Droits des utilisateurs
+
+Étant donné que nous ne collectons ni ne traitons aucune donnée personnelle, il n'y a pas de droits spécifiques à exercer concernant vos données personnelles dans le cadre de l'utilisation de Scribocracy.
+
+## Sécurité
+
+Toutes les notes sont stockées localement sur votre appareil. Nous vous recommandons d'utiliser les fonctionnalités de sécurité de votre appareil (comme le verrouillage par code PIN ou empreinte digitale) pour protéger vos notes.
+
+## Modifications de la politique
+
+Nous nous réservons le droit de modifier cette politique de confidentialité à tout moment. Toute modification sera publiée dans l'application et sur le Play Store.
+
+## Contact
+
+Pour toute question concernant cette politique de confidentialité, vous pouvez contacter Gaetan SUILLEROT à l'adresse suivante : gaetan.slt@gmail.com.
+
+Date d'entrée en vigueur : 10 octobre 2024
