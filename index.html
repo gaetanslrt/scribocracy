@@ -52,7 +52,7 @@
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <a href="#home" class="w3-bar-item w3-button w3-wide" style="
+    <a id="logo" href="#home" class="w3-bar-item w3-button w3-wide" style="
     height: 82px;
     width: 82px;
     background-color: white !important;
@@ -66,23 +66,25 @@
       <a href="#home" class="w3-bar-item w3-button"><i class="fa-solid fa-cloud-arrow-down"> </i> Download</a>
       <a href="#about" class="w3-bar-item w3-button"><i class="fa-solid fa-info"> </i> About</a>
       <a href="#team" class="w3-bar-item w3-button"><i class="fa-solid fa-user"> </i> Team</a>
+      <a href="#galery" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa-regular fa-image"> </i> Galery</a>
       <a href="#contact" class="w3-bar-item w3-button"><i class="fa-solid fa-envelope"> </i> Contact</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
-    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()" style="font-size: x-large; padding-top: 20px;">
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()" style="font-size: x-large;">
       <i class="fa fa-bars"></i>
     </a>
   </div>
 </div>
 
 <!-- Sidebar on small screens when clicking the menu icon -->
-<nav class="w3-center w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none; font-size:x-large; background-color:white; color: black;" id="mySidebar">
+<nav class="w3-center w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none; font-size:x-large; background-color:white!important; color: black!important;" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16" style="text-align: right;">Close X</a>
   <div style="padding: 100px 0 0 0;">
     <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button">Download</a>
   <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
   <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">Team</a>
+  <a href="#galery" onclick="w3_close()" class="w3-bar-item w3-button">Galery</a>
   <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
 </div>
 </nav>
@@ -122,7 +124,7 @@
   <p class="w3-center w3-large">Key features of the app</p>
   <div class="w3-row-padding w3-center" style="margin-top:64px">
     <div class="w3-quarter">
-      <i class="fa fa-mobile w3-margin-bottom w3-jumbo w3-center"></i>
+      <i class="fa-solid fa-mobile w3-margin-bottom w3-jumbo w3-center"></i>
       <p class="w3-large">Mobile</p>
       <p>Developed for all screen types, Scribocracy adapts perfectly to your mobile. Its simplicity delivers rare performance for a fluid experience.</p>
     </div>
@@ -132,7 +134,7 @@
       <p>Made with passion and thought for users, Scribocracy offers essential tools that are enjoyable and easy to use.</p>
     </div>
     <div class="w3-quarter">
-      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo" style="font-family: 'FontAwesome';"></i>
       <p class="w3-large">Design</p>
       <p>Scribocracy's streamlined interface offers all the simple functions of a note-taking application. The style is inspired of 19th-century London newspapers.</p>
     </div>
@@ -159,17 +161,17 @@
 </div>
 
 <!-- Team Section -->
-<div class="w3-container" style="padding:128px 16px" id="team">
+<div class="w3-container" style="padding:128px 16px">
   <h3 class="w3-center" style="font-family: 'Roxborough';">The team</h3>
   <p class="w3-center w3-large">Those who run the compagny</p>
-  <div class="w3-row-padding" style="margin-top:64px;">
+  <div class="w3-row-padding" id="team" style="margin-top:64px;">
     
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
         <img src="assets/images/team/gaetan-suillerot.png" alt="Gaetan SUILLEROT" style="width:100%">
         <div class="w3-container">
           <h3 style="font-size:24px !important;">Gaetan SUILLEROT</h3>
-          <p class="w3-opacity">Student at EPITA<br>Founder & CEO Scribocracy</p>
+          <p class="w3-opacity">Founder & CEO Scribocracy</p>
           <p>An open-minded passionate about emerging technologies and future industries, adaptive team player and contributor to leading innovative projects.</p>
           <p><a href="mailto:gaetan.slt@gmail.com" class="w3-button w3-white w3-block w3-large w3-margin-top w3-opacity w3-hover-opacity-off"><i class="fa fa-envelope"> </i> Contact</a></p>
         </div>
@@ -181,7 +183,7 @@
         <img src="assets/images/team/cyprien-oudart.jpg" alt="Cyprien OUDART" style="width:100%">
         <div class="w3-container">
           <h3 style="font-size:24px !important;">Cyprien OUDART</h3>
-          <p class="w3-opacity">Student at EPITA<br>Administrative Director</p>
+          <p class="w3-opacity">Administrative Director</p>
           <p>A passionate computer science enthusiast, dedicated to innovative programming and constantly pushing the boundaries of technology.</p>
           <p><a href="mailto:cypoudart@gmail.com" class="w3-button w3-white w3-block w3-large w3-margin-top w3-opacity w3-hover-opacity-off"><i class="fa fa-envelope"> </i> Contact</a></p>
         </div>
@@ -211,7 +213,8 @@
   </div>
 </div>
 
-<div class="w3-white" style="vertical-align: middle;">
+<!-- Galery -->
+<div class="w3-white" style="vertical-align: middle;" id="galery">
   <h3 class="w3-center" style="font-family: 'Roxborough';margin-top: 135px;">Gallery</h3>
   <img class="w3-jumbo" src="assets/images/mockup/s20-pink-list/s20-pink-portrait.png" width="100%">
   <img class="w3-jumbo" src="assets/images/mockup/s24-art-of-war/left.png" width="100%">
@@ -230,15 +233,12 @@
     <p><i class="fa-solid fa-location-dot fa-fw w3-xxlarge w3-margin-right"></i> Paris, FR</p>
     <p><i class="fa-solid fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> scribocracy1@gmail.com</p>
     <br>
-
-    <!-- Image of location/map -->
-    <img src="assets/images/end-page-paris.png" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
   </div>
 </div>
 
 <!-- Footer -->
 <footer class="w3-center w3-padding-16">
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <a href="#home" class="w3-button w3-light-grey" style="border-radius: 100px;"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <div class="w3-xlarge w3-section">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa-brands fa-x-twitter w3-hover-opacity"></i>

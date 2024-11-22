@@ -1,4 +1,3 @@
-
 h3 {
     font-size: 50px !important
 }
@@ -113,6 +112,11 @@ img {
 
 a {
     color: inherit;
+}
+
+#team {
+    display: flex;
+    justify-content: center;
 }
 
 .w3-button {
@@ -265,12 +269,14 @@ a {
 }
 
 @media (max-width: 1205px) {
+
     .w3-auto {
         max-width:95%
     }
 }
 
 @media (max-width: 600px) {
+    
 
     .w3-hide-small {
         display: none!important
@@ -287,7 +293,7 @@ a {
 
 
 @media (min-width: 993px) {
-
+    
     .w3-hide-large {
         display: none!important;
     }
@@ -298,12 +304,32 @@ a {
 }
 
 @media (max-width: 992px) and (min-width:601px) {
+
+    #logo {
+        width: 70px !important;
+        height: 70px !important;
+    }
+
+    #team {
+        display: block;
+    }
+
     .w3-hide-medium {
         display:none!important
     }
 }
 
 @media (max-width: 992px) {
+
+    #logo {
+        width: 70px !important;
+        height: 70px !important;
+    }
+
+    #team {
+        display: block;
+    }
+
     .w3-sidebar {
         display:none
     }
