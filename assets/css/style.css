@@ -268,7 +268,15 @@ a {
     display: inline-block!important
 }
 
+#tothetop {
+    width: auto;
+}
+
 @media (max-width: 1205px) {
+
+    #tothetop {
+        width: 50%!important;
+    }
 
     .w3-auto {
         max-width:95%
