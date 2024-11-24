@@ -274,20 +274,12 @@ a {
 
 @media (max-width: 1205px) {
 
-    #tothetop {
-        width: 50%!important;
-    }
-
     .w3-auto {
         max-width:95%
     }
 }
 
 @media (max-width: 600px) {
-
-    #tothetop {
-        width: 50%!important;
-    }
     
 
     .w3-hide-small {
@@ -305,10 +297,7 @@ a {
 
 
 @media (min-width: 993px) {
-    #tothetop {
-        width: 50%!important;
-    }
-    
+
     .w3-hide-large {
         display: none!important;
     }
@@ -319,9 +308,6 @@ a {
 }
 
 @media (max-width: 992px) and (min-width:601px) {
-    #tothetop {
-        width: 50%!important;
-    }
     
     #logo {
         width: 70px !important;
@@ -338,12 +324,7 @@ a {
 }
 
 @media (max-width: 992px) {
-
-    #tothetop {
-        width: 50%!important;
-    }
     
-
     #logo {
         width: 70px !important;
         height: 70px !important;
