@@ -383,12 +383,10 @@ a {
 @keyframes animatetop {
     from {
         top: -100px;
-        opacity: 1;
     }
 
     to {
         top: 0;
-        opacity: 1;
     }
 }
 
@@ -400,12 +398,10 @@ a {
 @keyframes animateleft {
     from {
         left: -300px;
-        opacity: 1;
     }
 
     to {
         left: 0;
-        opacity: 1;
     }
 }
 
@@ -417,12 +413,10 @@ a {
 @keyframes animateright {
     from {
         right: -300px;
-        opacity: 1;
     }
 
     to {
         right: 0;
-        opacity: 1;
     }
 }
 
@@ -434,12 +428,10 @@ a {
 @keyframes animatebottom {
     from {
         bottom: -300px;
-        opacity: 1;
     }
 
     to {
         bottom: 0;
-        opacity: 1;
     }
 }
 
