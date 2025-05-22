@@ -582,7 +582,7 @@ a {
 }
 
 .title-text-mobile {
-  padding-top: calc(2vh + 5%);
+  padding-top: 0.5vh;
 }
 
 .sc-footer-items {
