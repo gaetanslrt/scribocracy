@@ -302,7 +302,8 @@ a {
         display: none!important;
     }
 
-    .w3-sidebar.w3-collapse; /* hiding mobile sidebar on desktop browser*/ {
+    /* hiding mobile sidebar on desktop browser */
+    .w3-sidebar.w3-collapse {
         display: block!important;
     }
 }
@@ -577,11 +578,11 @@ a {
 }
 
 .title-text {
-  padding-top: calc(10vh + 5%);
+  padding-top: calc(5vh + 5%);
 }
 
 .title-text-mobile {
-  padding-top: calc(5vh + 5%);
+  padding-top: calc(2vh + 5%);
 }
 
 .sc-footer-items {
