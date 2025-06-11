@@ -4,22 +4,22 @@
 
 Scribocracy is a note-taking mobile application developped in Dart programming language with Flutter
 
-# scribocracy application
+# SCRIBOCRACY APPLICATION
 Developped by Gaetan SUILLEROT
 
-# team
+# TEAM
 Gaetan SUILLEROT - Founder & Developer
 Cyprien OUDART - Advisor
 
-# website
+# WEBSITE
 Developped by Gaetan SUILLEROT
 
-# version
+# VERSION
 9.0.0
 
-# android version
+# ANDROID COMPATIBLE VERSION
 Android 5 and upper
 
-# link
+# LINKS
 https://www.linkedin.com/company/scribocracynotes/
 https://scribocracy.com/
