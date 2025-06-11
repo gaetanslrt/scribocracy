@@ -19,6 +19,6 @@ Developped by Gaetan SUILLEROT
 Android 5 and upper
 
 ## Follow us
-LinkedIn: https://www.linkedin.com/company/scribocracynotes/<br>
-Website: https://scribocracy.com/<br>
-Twitter/X: https://x.com/gaetanslrt
+LinkedIn Scribocracy (https://www.linkedin.com/company/scribocracynotes/)<br>
+Website Scribocracy (https://scribocracy.com/)<br>
+Twitter/X @gaetanslrt (https://x.com/gaetanslrt)
