@@ -1,11 +1,9 @@
-11-06-2025
-
+# Scribocracy
+Update: 11-06-2025
 2025 Scribocracy. All rights reserved.
 
+## About
 Scribocracy is a note-taking mobile application developped in Dart programming language with Flutter
-
-## Scribocracy Application
-Developped by Gaetan SUILLEROT
 
 ## Team
 Gaetan SUILLEROT - Founder & Developer
