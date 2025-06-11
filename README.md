@@ -19,5 +19,5 @@ Developped by Gaetan SUILLEROT
 Android 5 and upper
 
 ## Links
-https://www.linkedin.com/company/scribocracynotes/<br>
-https://scribocracy.com/
+LinkedIn: https://www.linkedin.com/company/scribocracynotes/<br>
+Website: https://scribocracy.com/
