@@ -18,6 +18,7 @@ Developped by Gaetan SUILLEROT
 ## Android compatible versions
 Android 5 and upper
 
-## Links
+## Follow us
 LinkedIn: https://www.linkedin.com/company/scribocracynotes/<br>
-Website: https://scribocracy.com/
+Website: https://scribocracy.com/<br>
+Twitter/X: https://x.com/gaetanslrt
